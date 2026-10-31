@@ -1,0 +1,5 @@
+# Combined with the branch ruleset, this makes the owner the reviewer of record.
+
+*                       @venkatapraneel-sketch
+/.github/               @venkatapraneel-sketch
+/SECURITY.md            @venkatapraneel-sketch
