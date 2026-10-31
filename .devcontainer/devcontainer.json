@@ -1,0 +1,14 @@
+{
+  "name": "secure-node-devsecops",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "GitHub.vscode-pull-request-github"
+      ]
+    }
+  }
+}
