@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Test output
+coverage/
+
+# Environment and secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
